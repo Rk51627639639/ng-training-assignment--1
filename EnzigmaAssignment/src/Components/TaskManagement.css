@@ -1,0 +1,117 @@
+.task-management {
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f2e233;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .delete-confirm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-confirm-modal h1 {
+    background-color: red;
+    color: white;
+  }
+  
+  .task-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the right */
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-bottom: 10px; /* Space between buttons and input */
+  }
+  
+  .button-group button {
+    padding: 10px 20px; /* Button padding */
+    margin-left: 10px; /* Space between buttons */
+    background-color: #f2e233; /* Button background color */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    width: calc(200px + 20px); /* Adjust width as needed to match button width */
+    padding: 10px; /* Input padding */
+    text-align: center; /* Center the text */
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
